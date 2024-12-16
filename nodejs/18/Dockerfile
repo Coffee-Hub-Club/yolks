@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH node:18.12.0-bookworm-slim
+FROM        --platform=$TARGETOS/$TARGETARCH node:18.12.0-bullseye-slim
 
 LABEL       author="Michael Parker" maintainer="parker@pterodactyl.io"
 
